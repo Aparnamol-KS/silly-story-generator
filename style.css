@@ -49,17 +49,29 @@ body {
     top:90px;
     left:180px;
    }
-
+.btn-ctn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-top: 10px;
+}
    button{
     border-radius: 10cap;
     border:none;
-    padding:15px;
+    height: 100%;
     background-color: rgb(10, 11, 11);
     color: white;
-    position: relative;
-    left: 120px;
-    top: 20px;
+    width: 50%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+   button:hover{
+    scale: 1.05;
+    font-size: medium;
+    transition: 0.5s;
    }
 
    .heading{
